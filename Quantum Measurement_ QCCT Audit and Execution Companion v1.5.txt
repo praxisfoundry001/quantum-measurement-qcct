@@ -1,0 +1,1709 @@
+﻿Quantum Measurement: QCCT Audit and Execution Companion
+How to Use This Companion
+This companion is the operational counterpart to Quantum Measurement: Separating the Physical Burdens and Testing Outcome-Conditioned Continuation. The anchor artifact presents the scientific case for separating several burdens that are often grouped together under “quantum measurement” and develops the Quantum Continuation Closure Test (QCCT) as an experimentally answerable test of outcome-conditioned continuation. This companion explains how to use that proposal.
+QCCT is modular. A laboratory may run the primary preparation-indistinguishability experiment prospectively. A data owner may determine whether an existing dataset enters one of the registered modules. A group with process-tomography capability may contribute an ordinary-memory comparator without running the complete experiment. A later experiment may use an earlier result only if the relevant physical and experimental conditions transfer to the new setting.
+Use the companion according to the task at hand:
+* For a new QCCT-I experiment, begin with Entering QCCT-I.
+* For machine reproduction, use Running the Machine Audit.
+* For a fixed-instrument, process-memory, or reference-expansion question, use Comparator Ladder and Reference Expansion.
+* For CGI, QCCT-II, or archival data, use Optional Modules and Existing Data.
+* For use of another group’s result, use Distributed Partial Closure and the cross-experiment checklist.
+* For exact return language, use Verdicts and STOP Conditions together with the Verdict Glossary.
+* For reporting a result, use the QCCT Return Template.
+If this companion and the anchor artifact provide materially incompatible QCCT instructions, return: 
+CONTRACT CLARIFICATION / REPAIR REQUIRED.
+Do not resolve the conflict privately and then treat the private resolution as part of QCCT. 
+The operative rule throughout is:
+enter only the burden for which you possess evidence, close only the scope that evidence warrants, and leave the rest open.
+Files in the QCCT Release
+The public Quantum Measurement package contains four files with distinct jobs. Those jobs should remain separate.
+A version followed by + is a compatibility wildcard. For example:
+v1.0+
+means version 1.0 or any later compatible revision in the same artifact lineage. The + is not part of the literal filename.
+Compatibility requires preservation of the referenced burden, interface, scope, and function. Exact versions should still be recorded when exact historical or reproducibility identity matters, such as a particular machine run, dataset, DOI, commit, hash, or archived experimental return. A materially incompatible successor is not covered by the wildcard and requires an explicit compatibility check.
+Anchor artifact
+Quantum Measurement: Separating the Physical Burdens and Testing Outcome-Conditioned Continuation — v0.7+
+The anchor artifact presents the scientific case. It separates the relevant measurement burdens, develops QCCT, explains the ordinary-quantum comparison class, situates the proposal relative to prior work, and states the bounded conclusions that different experimental outcomes can support.
+Use the anchor to evaluate the scientific case.
+QCCT Audit and Execution Companion
+Quantum Measurement: QCCT Audit and Execution Companion
+This artifact is the operating manual.
+It provides:
+* QCCT-I entry and comparator procedures;
+* machine-audit instructions;
+* optional-module and existing-data entry;
+* partial-result transfer, verdict, and STOP rules;
+* canonical equations needed for execution and audit;
+* source mapping;
+* return templates;
+* cross-experiment interface checks.
+Use the companion to execute, audit, transfer, and report the scientific program stated by the anchor.
+The companion does not replace the anchor’s scientific argument and does not enlarge the claims encoded by the machine files.
+Quantum Measurement machine contracts and adapters
+SF_Quantum_Measurement_Contracts_and_Adapters — v1.0+
+This is the public consolidated machine contracts-and-adapters file. 
+It contains two scientifically distinct modules under one file:
+* Seam G — Born weighting / quantum probability measure;
+* QCCT-I — preparation-indistinguishability / outcome-conditioned continuation.
+The modules remain separate machine contracts and adapters in separate namespaces. Consolidation changes the public packaging only. It does not merge their scientific objects, burdens, evidence states, dispositions, or claims.
+The QCCT execution procedures in this companion concern the QCCT-I experimental program. The presence of Seam G in the same Lean file does not make Seam G part of the QCCT-I empirical burden.
+The consolidated machine file does not derive the Born rule, prove the continuous QCCT λ-family algebra, establish apparatus feasibility or preparation equivalence, close an empirical comparator, or establish any experimental result.
+Universal Kernel
+Structural_Flow_Universal_Kernel — v1.0+
+The Universal Kernel is the unchanged formal base beneath the consolidated Quantum Measurement machine file.
+It supplies the universal machine grammar used by the downstream contracts and adapters. It does not supply QCCT-specific empirical evidence and does not determine whether the domain-owned or experimental requirements represented in the Quantum Measurement machine file have been satisfied.
+Running the Machine Audit
+The machine audit tests whether the encoded Quantum Measurement contract architecture elaborates coherently beneath a compatible Universal Kernel. It does not answer the experiment.
+The public machine audit covers the structures actually encoded in the consolidated Quantum Measurement Lean file. It does not imply machine coverage of every optional operational module described elsewhere in this companion.
+Assembly
+Use:
+* an unchanged compatible Structural_Flow_Universal_Kernel — v1.0+; and
+* a compatible SF_Quantum_Measurement_Contracts_and_Adapters — v1.0+.
+In the Lean browser:
+1. Place the unchanged compatible Universal Kernel first.
+2. Append the entire consolidated Quantum Measurement contracts-and-adapters file directly beneath it.
+3. Do not insert an import line between them.
+Do not:
+* edit the Universal Kernel to accommodate the Quantum Measurement file;
+* edit the Quantum Measurement file merely to obtain a clean run;
+* delete an open domain or empirical burden because a later experiment is expected to close it;
+* use a machine file below the declared compatibility floor;
+* treat a materially incompatible successor as covered by the wildcard;
+* treat the Quantum Measurement machine file as a replacement for the Universal Kernel.
+The machine object being audited is therefore:
+unchanged compatible Universal Kernel + compatible consolidated Quantum Measurement contracts-and-adapters file.
+Elaboration and run record
+Run the combined file in Lean.
+For every run, record:
+* exact Universal Kernel identity;
+* exact Quantum Measurement contracts-and-adapters file identity;
+* Lean environment or interface;
+* whether elaboration completed cleanly;
+* any errors or warnings;
+* any local modifications.
+Hashes or repository commit identifiers may also be recorded where available.
+A reproduction should not depend on an undocumented source repair.
+Release-machine provenance
+For this Quantum Measurement release, the consolidated file:
+SF_Quantum_Measurement_Contracts_and_Adapters_v1_0.lean
+was appended beneath the unchanged compatible Structural Flow Universal Kernel and elaborated cleanly twice during the release audit.
+This records the release-machine provenance. A later compatible machine file may be used for a current audit, but reproducing the recorded release-machine result requires the exact release files and environment used for that result.
+Expected generic dispositions
+The consolidated machine file contains two scientifically distinct modules. Their generic public dispositions remain:
+NOT YET ADJUDICABLE.
+They remain not yet adjudicable for different reasons.
+For Seam G, domain-owned probability-admission burdens remain open.
+For QCCT-I, real empirical entry, comparator, and adjudication burdens remain open, including as applicable:
+* proper-Gemenge admission;
+* operational-reference admission;
+* first-measurement admission;
+* same-instrument-seat admission;
+* preparation-side-channel closure;
+* fixed-instrument comparator closure;
+* process-tensor comparator closure;
+* preparation-indistinguishability adjudication;
+* named-foil-family adjudication.
+An unresolved domain or empirical requirement is not a machine contradiction.
+What a clean run establishes
+A clean elaboration establishes that the encoded machine contracts and adapters coexist coherently beneath the compatible Universal Kernel used for the run.
+For QCCT-I, the encoded architecture preserves distinctions including:
+* proper Gemenge ≠ improper mixture;
+* fixed standard instrument ≠ finite-horizon process tensor;
+* standard-null and nonlinear-Gemenge-foil logic remain distinct;
+* the preparation-side-channel burden remains explicit;
+* fixed-instrument and process-tensor comparators remain ordered rather than collapsed;
+* reference expansion remains separately represented;
+* bounded verdict and existing-data boundaries remain represented;
+* distributed partial closure remains scoped;
+* real empirical admission remains open.
+This is a machine-audit result about the encoded architecture.
+What a clean run does not establish
+A clean run does not establish that:
+* G_Z and G_X were physically prepared;
+* the preparations are genuine proper mixtures;
+* the preparations satisfy the required operational equivalence;
+* the required first-measurement seat has been physically admitted;
+* the same physical measurement instrument acted on both branches;
+* preparation side channels are closed;
+* a fixed quantum instrument fits the data;
+* a process tensor fits the data;
+* the Fiorentino–Weigert family is physically realized;
+* an anomaly has been observed;
+* standard quantum mechanics has failed;
+* any interpretation of quantum measurement has been established.
+It also does not machine-prove:
+W_PI(λ) = λ/(1 + λ)
+or
+Δ_joint(λ) = λ/[2(1 + λ)].
+Those equations belong to the scientific derivation and are reproduced in the canonical-equations appendix for audit.
+A clean machine run establishes that the encoded question is coherent enough to be represented under the declared machine architecture.
+The physical answer still comes from the experiment.
+If the combined machine files do not elaborate
+Localize the machine failure before drawing a scientific conclusion.
+First determine whether the failure is:
+* a transcription error;
+* a Lean-environment or version issue;
+* a namespace collision;
+* incompatibility between the Universal Kernel and Quantum Measurement machine-file versions used;
+* a type or theorem error inside the Quantum Measurement machine file;
+* or a substantive mismatch between the human QCCT instructions and their encoded machine representation.
+A compiler or elaboration error is not evidence against QCCT physics.
+If an unresolved machine mismatch remains, return:
+* exact Universal Kernel identity;
+* exact Quantum Measurement contracts-and-adapters file identity;
+* affected module, namespace, declaration, or theorem;
+* expected type or structure;
+* received type or structure;
+* error message;
+* environment;
+* local modifications;
+* affected QCCT requirement.
+If the mismatch prevents the relevant public QCCT requirement from being represented as written, return:
+CONTRACT CLARIFICATION / REPAIR REQUIRED.
+Do not infer experimental or physical failure from a machine-representation defect alone.
+Entering QCCT-I
+QCCT-I is the minimum preparation-indistinguishability experiment.
+Its target becomes live only after four antecedent conditions have been established:
+proper Gemenge admission
+→ operational-reference admission
+→ same first-measurement setup 
+→ preparation-side-channel closure
+→ target sequential comparison
+A failure or open burden at an earlier gate blocks the stronger downstream interpretation. Do not treat an unresolved entry condition as experimental uncertainty and continue anyway.
+Gate 1 — Admit the preparation Gemenge
+The canonical QCCT-I preparation procedures are:
+G_Z = { (½, |0⟩⟨0|), (½, |1⟩⟨1|) }
+and
+G_X = { (½, |+⟩⟨+|), (½, |−⟩⟨−|) },
+where
+|+⟩ = (|0⟩ + |1⟩)/√2
+and
+|−⟩ = (|0⟩ − |1⟩)/√2.
+These must be physically realized randomized preparation procedures.
+For G_Z, a classical randomization process selects between the declared |0⟩ and |1⟩ preparations with weights ½ and ½.
+For G_X, the corresponding process selects between |+⟩ and |−⟩ with the same declared weights.
+The experiment therefore needs auditable evidence for:
+* the component preparation identities;
+* the randomization procedure;
+* the mixture weights;
+* the relation between the randomization record and the preparation actually executed.
+The distinction between a proper and improper mixture is essential.
+A proper mixture, or Gemenge, represents classical uncertainty over which component preparation was physically performed. An improper mixture arises, for example, when a mixed reduced state is obtained from a larger entangled system.
+The generalized QCCT foil acts on the physically realized components of a proper Gemenge before averaging. It therefore cannot be entered merely because the density operator ½I admits more than one mathematical decomposition.
+If the required physical preparation decomposition or its weights cannot be established strongly enough for the declared scope, return:
+PREPARATION GEMENGE NOT ADMITTED
+If the state supplied to the experiment is only an improper mixture relative to the registered foil premise, return:
+IMPROPER-MIXTURE / GEMENGE MISMATCH
+Do not substitute an algebraic decomposition of a reduced density operator for the required preparation procedure.
+Either return blocks the preparation-indistinguishability foil until the preparation object is repaired or redefined.
+Gate 2 — Admit the operational reference
+Once G_Z and G_X have been physically admitted, establish the reference under which they count as the same standard quantum input.
+Call that reference:
+R_ref
+At the declared reference and tolerance, the experiment must warrant:
+ρ_Z ≈ ρ_X.
+For the ideal preparation pair:
+ρ_Z = ρ_X = ½I.
+This equality is an experimentally admitted input condition. It is not established merely by writing the ideal preparation formulas.
+The reference may be built using, for example:
+* ordinary quantum state tomography;
+* gate-set or related calibration methods;
+* an operational or GPT-style reconstruction;
+* secondary preparations built from experimentally realized primaries;
+* another specialist-warranted characterization procedure.
+QCCT does not require one universal method.
+It requires the reference to be strong enough to support the claim that the two preparation procedures are equivalent for the input description on which the standard fixed-instrument null is based.
+The reference must also be established independently of the continuation result being tested.
+Do not:
+1. inspect the target QCCT residual;
+2. alter preparation weights or the reference until the residual takes a preferred value;
+3. then report the adjusted preparation pair as the independently admitted input null.
+The target data may reveal that the original reference was inadequate. They may not manufacture the reference retroactively.
+If the two preparations fail the predeclared equivalence criterion, return:
+PREPARATIONS NOT EQUIVALENT AT DECLARED REFERENCE
+The experiment may then:
+* improve the preparation controls;
+* construct independently warranted secondary preparations;
+* adopt a different reference with independent justification;
+* narrow the claimed scope;
+* or stop.
+A failed equivalence gate is not a preparation-indistinguishability violation.
+Gate 3 — Admit the same first-measurement setup
+The canonical first measurement contains the rank-one outcome:
+P₀ = |0⟩⟨0|
+with complement:
+P₁ = |1⟩⟨1|.
+For the ideal preparation pair:
+Pr(P₀ | G_Z) = Pr(P₀ | G_X) = ½.
+The first measurement must have one admitted physical identity across both preparation branches.
+At minimum, establish enough information to identify:
+* the apparatus;
+* the declared outcome or event structure;
+* the calibration regime;
+* the one-shot effect relation;
+* treatment of loss or leakage;
+* timing and control mode;
+* any feed-forward relevant to the first outcome.
+The requirement is not microscopic identity of every laboratory variable from run to run.
+The requirement is that the comparison uses the same measurement setup and measurement identity strongly enough for the phrase one fixed standard quantum instrument to have a physical meaning.
+If the first measurement differs materially between G_Z and G_X—for example through a different apparatus mode, calibration state, outcome structure, or relevant control path—the experiment has not isolated outcome-conditioned continuation.
+Return:
+MEASUREMENT-COMPARISON MISMATCH
+Re-establish a common measurement setup and measurement identity before interpreting a sequential difference as a continuation effect.
+Gate 4 — Close or locate preparation side channels
+Even when
+ρ_Z ≈ ρ_X
+at the declared qubit reference, the two physical preparation histories may differ elsewhere.
+QCCT therefore requires an explicit search for preparation information that could remain physically accessible to the measurement apparatus outside the state description under which G_Z and G_X were declared equivalent.
+Candidate channels may include:
+* preparation-pulse residue;
+* microwave leakage;
+* resonator or cavity population;
+* occupation of higher levels;
+* unequal sequence timing;
+* trigger routing;
+* thermal loading;
+* spectator modes;
+* classical randomization paths;
+* retained controller state;
+* calibration drift.
+The exact inventory is apparatus-specific.
+The governing requirement is not.
+Any physically accessible preparation label capable of reaching the continuation experiment must either:
+* be included in the declared physical reference;
+* or be independently bounded strongly enough for the verdict being claimed.
+Useful controls may include:
+* matched sequence duration;
+* randomized and interleaved branch ordering;
+* resonator-depletion delays;
+* leakage characterization;
+* thermal-population measurements;
+* tests of whether raw apparatus observables predict the preparation label;
+* control-line monitoring;
+* stationarity blocks;
+* calibration sentinels.
+If a preparation-dependent carrier remains materially live, return:
+PREPARATION SIDE CHANNEL OPEN
+Do not proceed to a generalized-update interpretation.
+A located side channel is itself a physical result. It shows that the smaller reference omitted structure capable of carrying preparation history.
+If that carrier is subsequently admitted into the physical reference, the relevant upstream conditions must be checked again at the expanded scope.
+Target sequential data
+Only after the four entry gates are satisfied does the primary QCCT-I comparison become live.
+The minimum later probe is:
+F = P₁.
+Define the conditional preparation-indistinguishability witness:
+W_PI = Pr(P₁ later | first P₀, G_X) − Pr(P₁ later | first P₀, G_Z).
+A corresponding joint-count witness is:
+Δ_joint = Pr(P₀ then P₁ | G_X) − Pr(P₀ then P₁ | G_Z).
+A laboratory may use a larger or tomographically complete family of later probes where scientifically useful.
+The minimum QCCT-I contract does not require that extension.
+The central question is whether the outcome-conditioned continuation depends on which admitted proper-mixture preparation generated the same admitted standard quantum input.
+Canonical analytic self-check
+Before interpreting target data, reproduce the theory-side calculation independently.
+For the canonical preparation pair:
+ρ_Z = ρ_X = ½I.
+Let ℐ₀ be one fixed standard quantum-instrument outcome map associated with the first outcome P₀.
+Linearity gives:
+ℐ₀(ρ_Z) = ℐ₀(ρ_X).
+Therefore, for every later effect F:
+Tr[Fℐ₀(ρ_Z)] = Tr[Fℐ₀(ρ_X)].
+Equivalently:
+Δ_PI(F) = 0.
+This is the fixed-standard-instrument preparation-indistinguishability null.
+It is not merely a Lüders prediction.
+Any one admitted fixed standard linear quantum instrument acting on the same admitted input satisfies the null.
+The registered Fiorentino–Weigert probability-amplifying foil instead uses:
+G_λ(Pₓ) = (1 − λ)Pₓ + λI,
+with:
+0 ≤ λ ≤ 1,
+and applies the generalized update componentwise to the proper Gemenge before averaging.
+For the canonical QCCT-I preparation pair, the registered predictions are:
+W_PI(λ) = λ/(1 + λ)
+and
+Δ_joint(λ) = λ/[2(1 + λ)].
+The endpoint checks are:
+λ = 0:
+W_PI = 0
+Δ_joint = 0
+and
+λ = 1:
+W_PI = ½
+Δ_joint = ¼.
+The λ = 0 endpoint recovers the preparation-indistinguishability prediction associated with the Lüders limit of the registered family.
+The λ = 1 endpoint gives the passive, noncollapsing limit.
+If an independent reconstruction of the registered theory does not reproduce these expressions, stop before interpreting experimental target data.
+Return the exact formula discrepancy.
+Do not fit experimental data to a foil whose registered prediction remains analytically unresolved.
+Entry decision
+At the end of the entry phase, the experiment must occupy one of two states.
+ENTRY COMPLETE
+The experiment has established, strongly enough for the declared scope:
+* a proper G_Z Gemenge;
+* a proper G_X Gemenge;
+* operational equivalence at R_ref;
+* the same first-measurement setup;
+* closure of the relevant preparation-side-channel requirement, or explicit inclusion of that carrier in the declared reference.
+The target sequential comparison is now admitted.
+Proceed to the ordinary comparator ladder.
+ENTRY NOT COMPLETE
+Return the strongest exact status already earned.
+Possible entry returns include:
+* M0 / R_ref OPEN
+* PREPARATION GEMENGE NOT ADMITTED
+* IMPROPER-MIXTURE / GEMENGE MISMATCH
+* PREPARATIONS NOT EQUIVALENT AT DECLARED REFERENCE
+* MEASUREMENT-COMPARISON MISMATCH
+* PREPARATION SIDE CHANNEL OPEN
+Do not replace a known structural or experimental obstruction with the generic phrase “experimental uncertainty.”
+Name the requirement that remains open.
+QCCT-I begins only after the physical conditions required for its null have actually been earned.
+Comparator Ladder and Reference Expansion
+Passing the QCCT-I entry gates does not make the generalized-update foil the next explanation.
+The ordinary quantum comparison class receives first refusal.
+The comparator order is:
+fixed standard quantum instrument
+→ finite-horizon process tensor, if needed
+→ independently warranted reference expansion, if needed
+→ target residual adjudication
+A stronger comparator is entered only when the weaker admitted description fails or when the physical architecture already requires the stronger description.
+The purpose of the ladder is not to guarantee that ordinary quantum physics closes the result. It is to prevent a stronger continuation claim from being credited while a known, physically admissible ordinary explanation remains open.
+Comparator 1 — Fixed standard quantum instrument
+Begin with the strongest honest fixed-instrument model supported by the admitted measurement setup.
+Do not restrict the ordinary comparator to the ideal Lüders operation unless the apparatus has independently earned that restriction.
+A standard outcome-conditioned operation may include:
+* nonideal measurement backaction;
+* additional unitary evolution;
+* dissipation;
+* leakage;
+* calibrated loss;
+* other device-specific quantum dynamics consistent with the admitted instrument.
+For a finite-dimensional implementation, the relevant comparator is a standard linear, completely positive, trace non-increasing outcome map with the correct one-shot effect relation and declared treatment of loss or leakage.
+The central QCCT-I null remains:
+ρ_Z = ρ_X
+and therefore, for one fixed standard outcome map ℐ₀,
+ℐ₀(ρ_Z) = ℐ₀(ρ_X).
+For every later effect F:
+Tr[Fℐ₀(ρ_Z)] = Tr[Fℐ₀(ρ_X)].
+A non-Lüders instrument may alter the continuation substantially.
+It still cannot distinguish G_Z from G_X through their preparation decomposition if the same admitted density operator is supplied to the same fixed standard instrument and no additional preparation information reaches that instrument.
+Characterize before declaring failure
+Where feasible, characterize the fixed instrument using one set of preparations and probes and test it on conditions not used to fit the model.
+Useful validation conditions may include:
+* held-out preparation states;
+* unused later-probe axes;
+* different mixture weights;
+* timing variants;
+* interleaved calibration blocks;
+* other conditions fixed before interpreting the QCCT target residual.
+A model that reproduces only the data from which it was reconstructed has not yet established predictive closure.
+The exact reconstruction method is platform-owned.
+QCCT requires the ordinary comparator to be sufficiently identified to support either a closure or failure claim at the declared scope.
+Fixed-instrument closure
+If one admitted fixed standard quantum instrument predicts the relevant continuation data for both preparation branches within the declared adequacy criterion, return:
+STANDARD INSTRUMENT CLOSURE
+This is an ordinary-quantum result.
+It may coexist with failure of an ideal Lüders model.
+If the Lüders operation fails while another standard instrument succeeds, report the narrower result:
+the tested apparatus is described by a non-Lüders standard quantum instrument at the declared scope.
+Do not continue to a generalized-update interpretation merely because an ideal projection rule failed.
+Fixed-instrument failure
+If the adequately characterized fixed-instrument comparator fails its declared predictive criterion, return:
+FIXED STANDARD INSTRUMENT FAILURE
+This is stronger than failure of one preferred device model.
+It is not yet:
+* a preparation-indistinguishability violation;
+* failure of standard quantum mechanics;
+* support for the registered λ-family.
+The next question is whether the sequence requires a temporally extended standard quantum description.
+If relevant apparatus or environmental degrees of freedom retain information across the experimental sequence, one stationary outcome-conditioned map may be too small even though the larger dynamics remain ordinary quantum physics.
+Proceed, where warranted, to the finite-horizon process comparator.
+Comparator 2 — Finite-Horizon Process Tensor
+A finite-horizon process tensor represents a declared multi-time quantum process across a sequence of interventions.
+Its role in QCCT is to provide a bounded ordinary comparator for temporal memory.
+Without such a comparator, a fixed-instrument residual could be met indefinitely by proposing another unmodeled memory mechanism after the data are seen:
+* cavity memory;
+* environmental memory;
+* controller state;
+* drift;
+* correlated noise;
+* another hidden temporal degree of freedom.
+That would leave the ordinary comparison class effectively open-ended.
+A registered finite-horizon process tensor instead fixes the temporal horizon and intervention surface over which ordinary quantum memory is being tested.
+FULL versus RESTRICTED PT
+Use:
+FULL PT
+when the implemented intervention set is informationally complete for the declared process characterization.
+Use:
+RESTRICTED PT
+when the available interventions span only a restricted operational subspace.
+A restricted process tensor can still provide a valid and useful comparator.
+Its coverage must be stated exactly.
+Do not report unrestricted process-tensor closure from a restricted intervention set.
+For any PT comparison, record at least:
+* temporal horizon;
+* intervention set or basis;
+* intervention-span restriction, where applicable;
+* preparation and measurement primitives;
+* conditioning rules;
+* reconstruction method;
+* regularization, if used;
+* validation or held-out controls;
+* adequacy criterion.
+The comparator must be identified strongly enough that “memory” is no longer an undefined escape category.
+Process-tensor closure
+If the registered finite-horizon process tensor predicts the relevant sequential behavior across its declared intervention surface, return:
+FINITE-HORIZON PROCESS-TENSOR CLOSURE
+State whether the closure is:
+FULL PT
+or
+RESTRICTED PT
+and identify the covered intervention surface.
+This remains ordinary quantum closure.
+It means the fixed-instrument description was too small while a larger registered standard multi-time quantum process remains sufficient.
+A successful PT comparator therefore blocks the stronger QCCT-I inference at that scope.
+Process-tensor failure
+If an adequately identified registered process tensor fails its declared predictive criterion, return:
+REGISTERED PROCESS-TENSOR FAILURE AT DECLARED REFERENCE
+Always state:
+* the temporal horizon;
+* intervention surface;
+* whether the PT was full or restricted;
+* validation surface;
+* reference;
+* adequacy criterion.
+A restricted-PT failure is a failure on that restricted surface.
+It is not automatically a failure of every standard multi-time quantum description.
+Process-tensor failure also does not make the generalized foil the immediate next conclusion.
+The next question is whether the declared physical reference omitted a carrier capable of holding the relevant preparation history.
+Reference Expansion
+A registered comparator can fail because the system boundary was too small.
+QCCT permits reference expansion.
+It does not permit arbitrary reference expansion after seeing a residual.
+A newly admitted carrier must have evidence sufficient to warrant its inclusion independently of merely needing something to explain the target result.
+Examples may include:
+* measured occupation of a higher transmon level;
+* independently observed resonator memory;
+* characterized spectator-qubit coupling;
+* a retained controller state with demonstrated access to preparation history;
+* another directly evidenced apparatus or environmental degree of freedom.
+The governing rule is:
+the residual may identify where to investigate, but it may not manufacture the physical carrier used to explain itself.
+An unnamed “environment” introduced only because the registered comparator failed is not an admitted reference expansion.
+Expansion changes the physical scope
+If the qubit reference is enlarged to include a resonator, higher level, spectator system, controller state, or other carrier, the experiment now occupies a different physical scope.
+Record that change explicitly.
+At minimum, re-establish any upstream burdens affected by the expanded object, including as relevant:
+* system and carrier identity;
+* preparation equivalence;
+* proper-Gemenge status;
+* first-measurement identity;
+* side-channel status;
+* comparator class;
+* process horizon.
+The earlier result remains a statement about the smaller reference.
+It is not erased by the expansion.
+The enlarged reference defines a new experimental scope.
+If independent evidence warrants the larger reference but the enlarged experiment has not yet been characterized, return:
+REFERENCE EXPANSION WARRANTED / LOCATED
+Do not skip the required re-entry and continue directly to foil adjudication.
+Comparator Decision Path
+The ordinary comparator sequence can be applied as follows.
+1. Fixed instrument
+Does one adequately characterized fixed standard quantum instrument predict the continuation data for both preparation branches and the declared validation conditions?
+Yes:
+return
+STANDARD INSTRUMENT CLOSURE
+and stop the stronger QCCT-I inference at that scope.
+No:
+return
+FIXED STANDARD INSTRUMENT FAILURE
+and proceed to a multi-time comparator only when temporal memory is relevant and the stronger comparator can be adequately identified.
+2. Finite-horizon process tensor
+Does the registered finite-horizon process tensor predict the relevant multi-time data over its declared intervention surface?
+Yes:
+return
+FINITE-HORIZON PROCESS-TENSOR CLOSURE
+with the FULL or RESTRICTED scope stated explicitly.
+Stop the stronger QCCT-I inference at that scope.
+No:
+return
+REGISTERED PROCESS-TENSOR FAILURE AT DECLARED REFERENCE
+and examine whether the declared physical reference is incomplete.
+3. Reference expansion
+Is there independent physical evidence for a carrier omitted from the present reference?
+Yes:
+return
+REFERENCE EXPANSION WARRANTED / LOCATED
+Expand the physical reference explicitly and re-enter the upstream requirements affected by that change.
+No:
+the registered ordinary comparison architecture has exhausted the repair routes admitted for the declared reference, horizon, intervention surface, and adequacy criterion.
+Only then may the residual be evaluated as a preparation-indistinguishability result.
+Re-enter When the Physical Object Changes
+The comparator ladder has one recurring rule:
+when the physical object changes, re-enter the upstream burdens that depend on that object.
+If a new resonator degree of freedom is admitted, re-establish preparation equivalence at the expanded reference.
+If the measurement instrument changes, re-establish the same first-measurement setup.
+If the process horizon changes materially, restate the comparator scope.
+If the preparation procedure changes in order to close a side channel, re-admit the proper Gemenge and R_ref.
+A downstream failure does not preserve an upstream gate whose physical premise has changed.
+The experiment closes only over the physical object that remains admitted when the verdict is claimed.
+Optional Modules and Existing Data
+QCCT-I is the minimum experiment.
+The wider QCCT program includes neighboring modules because some measurement burdens can be tested independently and because existing experiments may already contain useful evidence for one part of the architecture without containing the complete preparation-indistinguishability test.
+Those modules are not prerequisites for QCCT-I unless the physical implementation makes them relevant.
+The principal extensions are:
+* QCCT-CGI, testing Coarse-Graining Invariance in a sequential measurement setting;
+* QCCT-II, testing composition compatibility for a larger composite system.
+Existing datasets may also support narrower parts of QCCT such as:
+* measurement admission;
+* operational-reference construction;
+* fixed-instrument characterization;
+* finite-horizon process characterization;
+* experimental feasibility;
+* CGI;
+* or QCCT-I itself, if the required preparation and sequential fields are genuinely present.
+The governing rule is:
+an existing dataset supports only the QCCT question its retained fields can answer.
+Similarity of apparatus or scientific topic is not enough.
+QCCT-CGI — Coarse-Graining Invariance
+Fiorentino and Weigert identify a single-system condition they call coherence. QCCT uses the term:
+Coarse-Graining Invariance — CGI
+to avoid confusion with other uses of “coherence.”
+Let Pₓ and Pᵧ be projectors satisfying:
+Pₓ ≤ Pᵧ.
+The registered CGI condition is:
+Tr[Pₓω(Pᵧ,ρ)] = Tr(Pₓρ).
+Operationally:
+Pr(Pᵧ then Pₓ) = Pr(Pₓ direct).
+Define:
+D_CGI = Pr(Pᵧ then Pₓ) − Pr(Pₓ direct).
+For ideal Lüders continuation:
+D_CGI = 0.
+CGI asks whether inserting an admitted coarser measurement changes the later probability of a finer event already contained within that coarse subspace.
+This is not the QCCT-I preparation-indistinguishability question.
+QCCT-I compares two different proper-mixture preparation procedures represented by the same admitted standard quantum state.
+QCCT-CGI compares two measurement routes:
+* direct measurement of Pₓ;
+* measurement of Pᵧ followed by Pₓ.
+Either module may be adjudicated while the other remains open.
+Minimum CGI data burden
+A retrospective or prospective CGI test must support both sides of:
+Pr(Pᵧ then Pₓ)
+and
+Pr(Pₓ direct)
+under a sufficiently matched experimental reference.
+At minimum, the retained evidence must identify:
+* the direct Pₓ condition;
+* the sequential Pᵧ → Pₓ condition;
+* preparation identity;
+* measurement ordering;
+* outcome coding;
+* selection and exclusion rules;
+* calibration sufficient to identify Pₓ and Pᵧ;
+* timing and context sufficient to justify the comparison;
+* any compatibility or disturbance controls required by the implementation.
+If a required field has not yet been verified, return:
+DATASET FIELD BURDEN OPEN
+If missing information prevents lawful entry into CGI altogether, return:
+DATASET CONTRACT INCOMPLETE
+Do not infer a missing field from theory, apparatus similarity, or the published conclusion of the original experiment.
+Retrospective CGI candidate
+The sequential superconducting-qutrit experiment of Jerger and collaborators is a plausible retrospective CGI candidate.
+Its apparatus implemented dichotomic measurements in which one qutrit state could be distinguished from a complementary two-dimensional subspace, together with sequential measurement capability and publicly available individual measurement data.
+That makes retrospective CGI analysis conceivable.
+It does not establish that every field required by the QCCT-CGI contract is present in the retained dataset.
+Until the direct and sequential conditions, ordering information, outcome coding, selections, and relevant calibration fields have been verified, the appropriate status is:
+RETROSPECTIVE CGI DATASET CANDIDATE
+not:
+CGI CLOSED
+Prospective CGI execution
+A new CGI experiment does not need to reproduce the Jerger apparatus.
+It must establish:
+1. an admitted finer projector Pₓ;
+2. an admitted coarser projector Pᵧ containing Pₓ;
+3. a direct route measuring Pₓ;
+4. a sequential route measuring Pᵧ and then Pₓ;
+5. adequate control that the comparison addresses coarse-graining rather than a known apparatus mismatch.
+The primary statistic is:
+D_CGI.
+A nonzero D_CGI does not by itself identify the mechanism responsible for the difference.
+Measurement mismatch, uncontrolled disturbance, leakage, timing differences, drift, and an incomplete physical reference remain ordinary possibilities that must be handled at the scope of the claimed result.
+QCCT-II — Composition Compatibility
+QCCT-II addresses a different question.
+Its target is the consistency required when a local state-update rule must coexist with a larger composite quantum description.
+A rule that appears admissible for one isolated system may acquire additional constraints when it is required to act consistently on a subsystem embedded in a larger physical system.
+That makes composition compatibility scientifically relevant.
+It also makes QCCT-II materially thicker than the minimum single-qubit experiment.
+A composite implementation may require additional admission of:
+* composite-state identity;
+* entanglement where relevant;
+* subsystem identity;
+* local versus global instrument identity;
+* residual coupling;
+* crosstalk;
+* spectator-system effects;
+* larger tomography;
+* causal or no-signaling conditions;
+* local/global reference alignment.
+Those are part of the physical object being tested.
+They are not automatically supplied by successful QCCT-I execution.
+QCCT-II must therefore establish its own system, measurement, and reference conditions before entering a composition-compatibility claim.
+Do not inherit a single-qubit QCCT-I result as though it automatically established the composite-system premises.
+What QCCT-II can test
+QCCT-II can ask whether a state-update rule that survives the registered single-system tests remains compatible with the larger composite description.
+A failure at this level may indicate a limitation of the candidate update rule.
+It may also arise from ordinary composite-system effects such as:
+* residual coupling;
+* crosstalk;
+* incomplete local/global instrument modeling;
+* an inadequately characterized entangled input;
+* spectator-system dynamics;
+* another omitted carrier.
+A composition-compatibility failure therefore requires its own ordinary comparison class before a stronger physical interpretation is credited.
+Existing-Data Entry
+Retrospective analysis is permitted when an existing experiment retains the fields required by the QCCT result being claimed.
+Begin with:
+Which exact QCCT variables, calibrations, controls, and outcomes are present in the retained record?
+Do not begin with:
+Does this experiment look like QCCT?
+Different datasets may enter different parts of the program.
+Measurement admission
+A dataset may support measurement admission when it retains enough preparation, apparatus, calibration, and readout information to identify the relevant measurement setup.
+Operational-reference construction
+A dataset may support R_ref when it contains enough prepare-and-measure evidence to establish the required operational equivalence at a declared reference.
+Fixed-instrument characterization
+A dataset may support the fixed-instrument comparator when it contains sufficient input/output data to reconstruct and validate one outcome-conditioned quantum instrument at the claimed scope.
+Process-tensor characterization
+A dataset may support the process comparator when it contains a sufficiently rich family of interventions and multi-time outcomes for the declared FULL or RESTRICTED PT claim.
+CGI
+A dataset may enter CGI when it contains the required direct and nested sequential measurement conditions together with the information needed to compare them lawfully.
+QCCT-I
+A dataset enters QCCT-I only if it contains enough evidence for:
+* the G_Z and G_X proper-mixture preparations;
+* their mixture weights and physical randomization;
+* the operational reference;
+* the same first-measurement setup;
+* the later sequential probe;
+* relevant side-channel adjudication;
+* and the ordinary comparator required by the claimed verdict.
+A dataset rich in process tomography but lacking the required Gemenge does not become QCCT-I data.
+A dataset rich in operational-equivalence information but lacking an intermediate measurement does not become QCCT-I data.
+Feasibility only
+Some prior work may establish that a required operation is physically achievable without containing the target comparison itself.
+That is useful evidence.
+It should be reported as feasibility rather than empirical closure of a burden the dataset never measured.
+Existing-Data Status Language
+Use the narrowest status supported by the retained record.
+FEASIBILITY SUPPORT ONLY
+Use when the apparatus or method demonstrates a relevant experimental capability but does not contain the target QCCT comparison.
+REFERENCE-METHODOLOGY SUPPORT
+Use when the work demonstrates a useful method for constructing or testing operational equivalence but does not contain the QCCT continuation sequence.
+PROCESS-COMPARATOR SUPPORT
+Use when the retained data support fixed-instrument or multi-time process characterization without containing the QCCT-I preparation pair.
+RETROSPECTIVE CGI DATASET CANDIDATE
+Use when an existing dataset plausibly contains the CGI comparison surface but exact field admission remains open.
+DATASET FIELD BURDEN OPEN
+Use when one or more required fields have not yet been verified.
+DATASET CONTRACT INCOMPLETE
+Use when missing retained information prevents lawful entry into the claimed module.
+These statuses describe what the existing record can answer.
+They are not judgments about the quality of the original experiment.
+Do Not Reconstruct Data That Were Never Retained
+Retrospective analysis may ask a new question of old data.
+It does not create information that the original acquisition never preserved.
+For example:
+* sequential qutrit data may lack the direct comparator required for CGI;
+* process-tomography data may lack G_Z and G_X;
+* an operational-equivalence experiment may lack the required intermediate measurement;
+* an update-rule experiment may distinguish two postmeasurement rules without containing the preparation-indistinguishability surface.
+When a required retained field ends, the retrospective claim ends with it.
+Do not replace missing data with an assumption derived from the original paper’s narrative.
+Specialist Extensions
+Specialists may substitute better preparation-equivalence methods, side-channel diagnostics, process comparators, CGI implementations, theoretical foils, composite-system implementations, or archival datasets provided the same QCCT question is preserved.
+If a proposed change alters the physical question, comparison class, or verdict criterion, identify that change explicitly rather than silently substituting a new experiment.
+A new theoretical foil intended to function as a predeclared comparator should be specified before the target data are interpreted.
+Improve the route freely; change the question explicitly. 
+Distributed Partial Closure
+QCCT does not require one laboratory to close every burden.
+A preparation group may establish operational equivalence. Another group may characterize a fixed instrument. Another may reconstruct a process tensor. An archival-data group may close CGI. A later experiment may address composition compatibility.
+Each result can be scientifically complete for its own declared setup and scope while the larger QCCT program remains open. The governing rule is: a result is local to the physical setup, level, scope, reference, and exact anchor and companion versions under which it was obtained. 
+Minimum identity of a partial closure
+A partial closure must identify what was tested, the physical setup and scope, the applicable anchor and companion versions, the operational reference, the supporting evidence and provenance, the exact result, and what remains open.
+If a machine audit contributed to the return, record the exact Quantum Measurement machine-file and Universal Kernel identities separately.
+Use Appendix D — QCCT Return Template for the full reporting fields. 
+Partial closure does not require whole-program completion
+Suppose one laboratory establishes:
+ρ_Z ≈ ρ_X
+at a declared operational reference but does not possess the intermediate measurement required for QCCT-I.
+That laboratory may still report:
+R_ref CLOSED AT DECLARED SEAT AND SCOPE
+with the relevant tolerance and evidence.
+QCCT-I remains open.
+Likewise, a group may establish:
+FINITE-HORIZON PROCESS-TENSOR CLOSURE
+for a particular apparatus and intervention surface without ever preparing the QCCT-I Gemenge.
+That result establishes the process-memory result for the declared apparatus and intervention surface. It does not become preparation-indistinguishability evidence merely because QCCT also uses process tensors. 
+Inheriting Another Result
+A downstream experiment may use an upstream result only when the interface required for that use is established.
+At minimum, compare:
+* release-version compatibility;
+* burden identity;
+* physical-object identity;
+* apparatus or carrier identity;
+* level;
+* scope;
+* reference;
+* calibration;
+* preparation identity where relevant;
+* measurement identity where relevant;
+* outcome semantics;
+* provenance;
+* unresolved upstream burdens.
+The detailed interface check is provided in the Cross-Experiment Interface Checklist.
+If the interface required for the downstream use is established, record:
+CROSS-HOUSE INTERFACE CLOSED FOR DECLARED USE
+together with the exact burden being inherited.
+If the required interface remains unresolved, return:
+CROSS-HOUSE INTERFACE OPEN
+The upstream result remains valid for its original setup and scope.
+What remains open is its use in the downstream experiment.
+Example
+Suppose Lab A establishes:
+ρ_Z ≈ ρ_X
+within tolerance ε_A under reference R_A on Device A during calibration epoch T_A.
+Lab B later wants to use that result in a QCCT-I experiment.
+Lab B may not mark its own R_ref burden closed merely because Lab A published a valid equivalence result.
+It must determine whether the relevant preparation object, physical setup, reference, calibration regime, and QCCT requirement transfer to its own experiment.
+If Lab B uses a different device, a larger reference, a materially changed preparation procedure, or a different calibration regime, a new empirical bridge may be required.
+The same rule applies within one institution.
+A new chip, substantial recalibration, firmware change, pulse redesign, expanded physical reference, or changed process horizon may define a new experimental setup even when the laboratory and authors are unchanged.
+Transfer depends on physical and experimental continuity, not merely on institutional continuity.
+Version Compatibility
+Every empirical closure belongs to the exact anchor and companion versions under which it was earned.
+Where a machine audit contributed to the return, its exact Quantum Measurement machine-file and Universal Kernel identities also belong to that audit provenance.
+A later compatible release may inherit an earlier result only when the parts relevant to that result remain compatible, including as applicable:
+* burden;
+* entry rule;
+* interface;
+* scope;
+* evidence requirement;
+* comparator;
+* verdict criterion.
+If one of those changes materially, perform an explicit compatibility check.
+The earlier result remains valid at the physical seat and release versions under which it was earned.
+Do not silently strengthen an earlier result merely because a later compatible release exists.
+Conflicting Partial Closures
+If two laboratories return apparently incompatible results, do not pool them first.
+First determine whether the experiments are actually comparable.
+Check whether they actually share:
+* the same object;
+* scope;
+* reference;
+* calibration;
+* side-channel closure;
+* comparator coverage;
+* outcome semantics;
+* QCCT burden. 
+If a material difference is found, the results may both remain valid at their respective seats.
+If the disagreement survives the relevant interface checks, preserve the conflict as a live scientific result.
+Do not average away a disagreement before establishing that the experiments addressed the same QCCT object and burden under sufficiently comparable conditions.
+A surviving disagreement may identify:
+* an unrecognized physical carrier;
+* a missing scope distinction;
+* incomplete comparator coverage;
+* a reference mismatch;
+* or genuine physical dependence not captured by either local description.
+Negative partial closures are also useful.
+An unresolved side channel, unattainable equivalence tolerance, underidentified comparator, incomplete dataset, failed foil, or unclosed cross-house interface can narrow the problem without reaching the primary witness.
+The distributed protocol can be summarized as:
+publish what you established, state exactly where and under what conditions it holds, preserve what remains open, and require an explicit interface before another experiment uses the result.
+Verdicts and STOP Conditions
+QCCT does not have one terminal success state.
+Its verdicts identify where the experiment currently stands.
+For exact definitions of the R0–R12 statuses, use the Verdict Glossary.
+At the body level, the decision structure is simpler.
+Entry states — R0 through R4
+These mean that the experiment has not yet satisfied the physical prerequisites for the stronger QCCT-I inference.
+They cover:
+* unresolved measurement or reference admission;
+* failure to admit the proper Gemenge;
+* improper-mixture mismatch;
+* failure of preparation equivalence;
+* an open preparation side channel.
+A result in this family stops the target inference until the relevant entry burden is repaired or the scope is changed explicitly.
+Ordinary-comparator states — R5 through R9
+These determine whether ordinary quantum descriptions close the observed continuation.
+They cover:
+* fixed standard instrument closure;
+* fixed-instrument failure;
+* finite-horizon process-tensor closure;
+* registered PT failure;
+* independently warranted reference expansion.
+A closure in this family blocks the stronger QCCT-I inference at the declared scope.
+A failure in this family does not automatically support the generalized foil.
+Follow the comparator ladder.
+Target and foil states — R10 through R12
+These become eligible only after the required entry conditions and ordinary comparator tests have been satisfied strongly enough for the declared scope.
+They cover:
+* preparation-indistinguishability violation at the tested surface;
+* quantitative constraint on the registered ω^λ family;
+* insufficiency of the registered standard quantum comparator at the declared scope.
+These statements remain scoped.
+In particular:
+REGISTERED STANDARD QUANTUM COMPARATOR INSUFFICIENT AT DECLARED SCOPE
+does not mean:
+standard quantum mechanics is universally false.
+The full meaning of each status is fixed in the Verdict Glossary.
+Verdicts may form a path
+Intermediate and final verdicts may coexist.
+For example:
+FIXED STANDARD INSTRUMENT FAILURE
+may be followed by:
+FINITE-HORIZON PROCESS-TENSOR CLOSURE
+In that case the process-tensor result is the stronger description of what ultimately happened: the fixed instrument was too small, but the registered larger ordinary quantum process closed the burden.
+Likewise, a target preparation-indistinguishability result may also support a quantitative constraint on the registered λ-family.
+Report the path.
+Do not report only the most dramatic intermediate state.
+STOP Conditions
+A STOP condition means:
+do not proceed to a stronger interpretation until the stated burden has been repaired, closed, or explicitly redefined.
+It does not mean that the scientific program has failed.
+STOP — preparation object not admitted
+If the required proper-mixture procedure cannot be sufficiently established, return:
+PREPARATION GEMENGE NOT ADMITTED
+Do not substitute an algebraic decomposition of a density operator.
+STOP — improper mixture substituted for Gemenge
+If the physical input does not satisfy the proper-mixture premise required by the registered foil, return:
+IMPROPER-MIXTURE / GEMENGE MISMATCH
+Do not enter the preparation-indistinguishability foil.
+STOP — operational equivalence fails
+If G_Z and G_X do not satisfy the declared R_ref criterion and tolerance, return:
+PREPARATIONS NOT EQUIVALENT AT DECLARED REFERENCE
+Repair the reference or preparation upstream.
+STOP — preparation side channel remains live
+If preparation history remains physically accessible through an uncontrolled carrier, return:
+PREPARATION SIDE CHANNEL OPEN
+Do not interpret the residual as preparation-indistinguishability violation.
+STOP — measurement comparison mismatch
+If the first measurement differs materially between the comparison branches, return:
+MEASUREMENT-COMPARISON MISMATCH
+Re-establish a common measurement setup and measurement identity.
+STOP — comparator underidentified
+If the ordinary comparator is too weakly characterized to support a failure claim, leave that comparator burden open.
+Examples include:
+* failure of one preferred instrument without testing the admissible fixed-instrument class;
+* reporting RESTRICTED PT as though it were FULL PT;
+* missing validation needed by the declared adequacy rule;
+* unknown intervention coverage.
+Do not promote an underidentified comparator into comparator failure.
+STOP — reference expansion already warranted
+If independent evidence identifies a relevant physical carrier omitted from the declared reference, return:
+REFERENCE EXPANSION WARRANTED / LOCATED
+Expand the reference and re-enter the upstream burdens affected by the new object.
+STOP — required dataset field absent or unverified
+If a retrospective analysis lacks a required verified field, return:
+DATASET FIELD BURDEN OPEN
+If the missing information prevents entry into the module altogether, return:
+DATASET CONTRACT INCOMPLETE
+Do not infer absent data.
+STOP — analytic self-check fails
+If the registered theory-side formulas cannot be reproduced, stop before interpreting the target data.
+Return the exact formula discrepancy.
+Do not fit data to an unresolved foil.
+STOP — QCCT instruction ambiguity
+If technically competent users can follow the anchor and companion at the same declared scope and lawfully reach incompatible entry or verdict rules, return:
+CONTRACT CLARIFICATION / REPAIR REQUIRED
+Do not choose one private interpretation and proceed as though it had been frozen in advance.
+STOP — material machine mismatch
+If the Lean representation exposes a substantive mismatch between the relevant human QCCT instruction and the encoded machine structure, stop claiming that the two are aligned.
+Return the exact mismatch.
+Do not infer physical failure from machine failure.
+STOP — scope drift
+If the physical system, reference, instrument, comparator horizon, or preparation object changes materially during the experiment, do not carry the old verdict surface forward automatically.
+Declare the new experimental setup and re-enter the requirements affected by the change.
+A verdict is only as stable as the physical object to which it applies.
+Reporting Errors and Interface Defects
+QCCT should be criticizable without requiring a critic to decide whether the entire proposal survives.
+When an error is found, localize it.
+Formula error
+Return:
+* exact formula;
+* disputed derivation step;
+* expected expression;
+* obtained expression;
+* downstream claims affected.
+Source error
+Return:
+* exact claim;
+* cited source;
+* what the source actually supports;
+* whether the problem is bibliographic, interpretive, or substantive;
+* affected QCCT requirement or claim.
+QCCT execution-rule error
+Return:
+* affected requirement;
+* problematic anchor or companion clause;
+* why the clause is impossible, circular, redundant, ambiguous, or insufficient;
+* downstream verdict or entry condition affected;
+* proposed repair, if available.
+Comparator-coverage error
+Return:
+* comparator claimed;
+* comparison class actually covered;
+* missing serious alternative or missing coverage;
+* effect on the current verdict.
+Existing-data error
+Return:
+* dataset identity;
+* field claimed;
+* field actually retained;
+* provenance;
+* corrected lawful dataset status.
+Cross-house inheritance error
+Return:
+* upstream result;
+* downstream use;
+* interface assumed;
+* missing compatibility burden;
+* corrected inheritance status.
+Machine-representation error
+Return:
+* exact kernel identity;
+* exact Quantum Measurement contracts-and-adapters file identity;
+* affected declaration or theorem;
+* error;
+* expected type or structure;
+* received type or structure;
+* environment;
+* local modifications;
+* whether the anchor or companion instruction is implicated.
+Human / machine interface defect
+Use this return when the anchor, companion, or machine representation cannot express a declared QCCT requirement without contradiction or material ambiguity.
+Return:
+* affected clause or machine declaration;
+* requirement involved;
+* level and scope;
+* exact contradiction, ambiguity, or missing distinction;
+* downstream claim affected;
+* proposed repair, if available.
+Do not infer a physical failure merely because the human or machine representation needs repair.
+Localize the defect, preserve unaffected results at their earned scope, and leave the affected downstream burden open until the repair is adjudicated.
+Page intentionally left blank.
+________________
+Appendix A — Canonical QCCT Equations
+This appendix collects the equations needed to execute and audit the registered QCCT comparisons.
+A.1 Canonical preparation Gemenge
+The primary QCCT-I preparations are:
+G_Z = { (½, |0⟩⟨0|), (½, |1⟩⟨1|) }
+and
+G_X = { (½, |+⟩⟨+|), (½, |−⟩⟨−|) },
+where:
+|+⟩ = (|0⟩ + |1⟩)/√2
+and
+|−⟩ = (|0⟩ − |1⟩)/√2.
+Their ideal standard quantum density operators are:
+ρ_Z = ρ_X = ½I.
+This equality does not erase the fact that G_Z and G_X are physically different proper-mixture preparation procedures.
+A.2 First measurement
+The canonical first-event projectors are:
+P₀ = |0⟩⟨0|
+and
+P₁ = |1⟩⟨1|.
+For the ideal preparation pair:
+Pr(P₀ | G_Z) = Pr(P₀ | G_X) = ½.
+A.3 Fixed-standard-instrument null
+Let ℐ₀ be one fixed standard quantum-instrument outcome map associated with P₀.
+If:
+ρ_Z = ρ_X,
+then linearity gives:
+ℐ₀(ρ_Z) = ℐ₀(ρ_X).
+For every later effect F:
+Tr[Fℐ₀(ρ_Z)] = Tr[Fℐ₀(ρ_X)].
+Define:
+Δ_PI(F) = Pr(P₀ then F | G_X) − Pr(P₀ then F | G_Z).
+Then:
+Δ_PI(F) = 0.
+This is not a Lüders-only null. It applies to any one admitted fixed standard linear quantum instrument acting on the same admitted input.
+A.4 Proper-Gemenge update
+For a proper mixture:
+G = { (pᵢ, ρᵢ) },
+the registered generalized foil acts on the physically prepared components before averaging:
+Ω_G,λ(Pₓ) = ∑ᵢ pᵢ ω^λ(Pₓ,ρᵢ).
+Do not replace the proper Gemenge by its averaged density operator before applying the nonlinear componentwise update.
+A.5 Registered probability-amplifying family
+Define:
+G_λ(Pₓ) = (1 − λ)Pₓ + λI,
+with:
+0 ≤ λ ≤ 1.
+The registered update family is:
+ω^λ(Pₓ,ρ) = Tr(Pₓρ) [√G_λ(Pₓ) ρ √G_λ(Pₓ) / Tr(G_λ(Pₓ)ρ)].
+The registered endpoints are:
+λ = 0: Lüders limit.
+λ = 1: passive / noncollapsing limit.
+A.6 Canonical QCCT-I continuations
+For G_Z and first outcome P₀:
+Ω_Z,λ(P₀) = ½P₀.
+Conditioned on P₀:
+ρ_Z|0,λ = P₀.
+For G_X:
+Ω_X,λ(P₀) = [P₀ + λP₁] / [2(1 + λ)].
+Conditioned on P₀:
+ρ_X|0,λ = [P₀ + λP₁] / (1 + λ).
+Therefore:
+Pr(P₁ later | P₀, G_Z) = 0
+and:
+Pr(P₁ later | P₀, G_X) = λ/(1 + λ).
+A.7 Conditional witness
+Define:
+W_PI(λ) = Pr(P₁ later | P₀, G_X) − Pr(P₁ later | P₀, G_Z).
+Then:
+W_PI(λ) = λ/(1 + λ).
+Endpoints:
+W_PI(0) = 0
+W_PI(1) = ½.
+A.8 Joint witness
+Define:
+Δ_joint(λ) = Pr(P₀ then P₁ | G_X) − Pr(P₀ then P₁ | G_Z).
+Then:
+Δ_joint(λ) = λ/[2(1 + λ)].
+Endpoints:
+Δ_joint(0) = 0
+Δ_joint(1) = ¼.
+A.9 Coarse-Graining Invariance
+For nested projectors:
+Pₓ ≤ Pᵧ,
+the registered CGI condition is:
+Tr[Pₓω(Pᵧ,ρ)] = Tr(Pₓρ).
+Operationally:
+Pr(Pᵧ then Pₓ) = Pr(Pₓ direct).
+Define:
+D_CGI = Pr(Pᵧ then Pₓ) − Pr(Pₓ direct).
+Ideal Lüders continuation gives:
+D_CGI = 0.
+A.10 Equation-use condition
+The equations above do not replace experimental admission.
+In particular:
+ρ_Z = ρ_X
+must be earned at the declared operational reference.
+Likewise:
+Δ_PI(F) = 0
+applies only when the same admitted input is acted on by the same fixed standard instrument.
+The formulas become empirical discriminators only after their corresponding physical premises have been established.
+Appendix B — Verdict Glossary
+The R-labels organize QCCT-I return states. They are not scores or rankings.
+R0 — M0 / R_ref OPEN
+Here, M0 denotes the measurement-admission and calibration gate. Measurement admission, calibration, operational reference, or another prerequisite remains unresolved strongly enough to block downstream evaluation.
+The stronger QCCT-I inference has not yet been entered.
+R1 — PREPARATION GEMENGE NOT ADMITTED
+The required physical proper-mixture preparation procedure has not been sufficiently established.
+Do not enter the registered Gemenge-dependent foil.
+R2 — IMPROPER-MIXTURE / GEMENGE MISMATCH
+The physical state does not satisfy the proper-mixture premise required by the registered foil.
+This is a premise mismatch, not evidence for or against preparation indistinguishability.
+R3 — PREPARATIONS NOT EQUIVALENT AT DECLARED REFERENCE
+G_Z and G_X fail the predeclared operational-equivalence criterion at R_ref.
+The fixed-standard-instrument preparation-indistinguishability null is not yet applicable.
+R4 — PREPARATION SIDE CHANNEL OPEN
+Preparation history remains physically accessible through a carrier outside the reference under which equivalence was claimed.
+The stronger preparation-indistinguishability verdict is blocked.
+R5 — STANDARD INSTRUMENT CLOSURE
+One admitted fixed standard quantum instrument predicts the relevant continuation data across the tested surface.
+This is ordinary-quantum closure.
+A non-Lüders standard instrument may satisfy this verdict.
+R6 — FIXED STANDARD INSTRUMENT FAILURE
+The adequately characterized fixed-instrument comparator fails its declared predictive burden.
+Temporal memory or a larger ordinary quantum process may still close the data.
+R7 — FINITE-HORIZON PROCESS-TENSOR CLOSURE
+A registered finite-horizon process tensor predicts the relevant sequential data over its declared intervention surface.
+State whether the result is:
+FULL PT
+or
+RESTRICTED PT.
+This remains ordinary-quantum closure.
+R8 — REGISTERED PROCESS-TENSOR FAILURE AT DECLARED REFERENCE
+The admitted finite-horizon process comparator fails its declared predictive burden.
+The claim remains bounded to the registered reference, horizon, intervention surface, and adequacy criterion.
+R9 — REFERENCE EXPANSION WARRANTED / LOCATED
+Independent evidence identifies a physically relevant carrier omitted from the current reference.
+Expand the physical seat explicitly and re-enter affected upstream burdens.
+R10 — PREPARATION-INDISTINGUISHABILITY VIOLATION AT TESTED SURFACE
+After lawful entry and discharge of the registered ordinary-comparator burdens, the two proper-mixture preparation procedures represented by the same admitted standard quantum input produce different continuation statistics on the tested surface.
+This verdict does not identify the correct replacement theory.
+R11 — ω^λ FAMILY BOUNDED / CONSTRAINED
+The data support a quantitative bound or parameter restriction on the registered Fiorentino–Weigert probability-amplifying family.
+This constrains that named family only.
+It does not constrain every nonlinear state-update rule.
+R12 — REGISTERED STANDARD QUANTUM COMPARATOR INSUFFICIENT AT DECLARED SCOPE
+The independently registered ordinary quantum comparison architecture no longer supplies an adequate account of the complete tested burden at the declared reference, horizon, intervention surface, and adequacy rule.
+This does not mean:
+standard quantum mechanics is universally false.
+A stronger claim would require a stronger coverage argument.
+Additional operational statuses
+MEASUREMENT-COMPARISON MISMATCH
+The first measurement differs materially between the comparison branches. Re-establish a common measurement setup and measurement identity before interpreting a continuation difference. 
+DATASET FIELD BURDEN OPEN
+A field required for the claimed retrospective analysis has not yet been verified.
+DATASET CONTRACT INCOMPLETE
+Missing retained information prevents lawful entry into the claimed QCCT module.
+RETROSPECTIVE CGI DATASET CANDIDATE
+An existing dataset plausibly contains the CGI comparison surface, but exact field admission remains open.
+CROSS-HOUSE INTERFACE CLOSED FOR DECLARED USE
+The interface required to inherit an upstream result has been established for the stated downstream use.
+This closure is limited to the declared inherited burden and scope.
+CROSS-HOUSE INTERFACE OPEN
+An upstream result remains valid locally but cannot yet be lawfully inherited by the downstream seat.
+CONTRACT CLARIFICATION / REPAIR REQUIRED
+The anchor, companion, or relevant machine representation is materially ambiguous, inconsistent, or unable to represent the burden required for execution.
+Leave the affected downstream inference open until the defect is repaired.
+Appendix C — Source Ledger
+This appendix identifies the external scientific sources used by the QCCT package and the specific burden each source supports.
+A source supports only the claim for which it is cited.
+Measurement problem, decoherence, and pointer structure
+Maximilian Schlosshauer
+“Decoherence, the measurement problem, and interpretations of quantum mechanics,” Reviews of Modern Physics 76, 1267–1305 (2005).
+DOI: 10.1103/RevModPhys.76.1267
+Used for:
+* the distinction between decoherence and the broader measurement problem;
+* caution against treating effective classicality or stable records as complete measurement closure.
+W. H. Zurek
+“Decoherence, einselection, and the quantum origins of the classical,” Reviews of Modern Physics 75, 715–775 (2003).
+DOI: 10.1103/RevModPhys.75.715
+Used for:
+* environment-induced selection;
+* robust pointer-state structure;
+* the physical origin of preferred readout structure.
+Neither source is used to infer unique outcome standing, the Born rule, or a universal postmeasurement state-update law from decoherence alone.
+Measurement calibration and quantum instruments
+G. M. D’Ariano, L. Maccone, and P. Lo Presti
+“Quantum Calibration of Measurement Instrumentation,” Physical Review Letters 93, 250407 (2004).
+DOI: 10.1103/PhysRevLett.93.250407
+Used for:
+* measurement calibration as an empirical burden;
+* the principle that measurement identity need not be inferred solely from apparatus design intent.
+Roman Stricker et al.
+“Characterizing Quantum Instruments: From Nondemolition Measurements to Quantum Error Correction,” PRX Quantum 3, 030318 (2022).
+DOI: 10.1103/PRXQuantum.3.030318
+Used for:
+* operational characterization of quantum instruments;
+* separation of one-shot measurement statistics from outcome-conditioned postmeasurement dynamics.
+N. Saberian, S. J. Akhtarshenas, and F. Shahbeigi
+“Measurement sharpness and disturbance tradeoff,” Physical Review A 109, 012201 (2024).
+DOI: 10.1103/PhysRevA.109.012201
+Used for:
+* measurement disturbance and postmeasurement-state structure;
+* support for the distinction between outcome effects and continuation dynamics.
+Generalized state-update foils
+V. Fiorentino and S. Weigert
+“Beyond the projection postulate and back: Quantum theories with generalized state-update rules,” Physical Review A 113, 012204 (2026).
+DOI: 10.1103/2zpm-jsh7
+Load-bearing source for:
+* the generalized state-update framework;
+* proper-mixture / Gemenge treatment;
+* componentwise update before averaging;
+* preparation indistinguishability;
+* the probability-amplifying λ-family;
+* the single-system coarse-graining condition;
+* composition compatibility;
+* Lüders uniqueness results under the conditions studied.
+QCCT calls the paper’s single-system “coherence” property:
+Coarse-Graining Invariance — CGI
+to avoid collision with broader uses of “coherence.”
+V. Fiorentino and S. Weigert
+“A quantum theory with non-collapsing measurements,” Physics Letters A 559, 130903 (2025).
+DOI: 10.1016/j.physleta.2025.130903
+Used for:
+* the passive / noncollapsing state-update theory;
+* physical interpretation of the λ = 1 endpoint.
+These papers supply theory-side foils, not empirical evidence that standard quantum mechanics fails.
+Prior experimental state-update discrimination
+C. S. Sudheer Kumar, A. Shukla, and T. S. Mahesh
+“Discriminating between Lüders and von Neumann measuring devices: An NMR investigation,” Physics Letters A 380, 3612–3616 (2016).
+DOI: 10.1016/j.physleta.2016.09.004
+Used for:
+* prior experimental discrimination between postmeasurement update rules;
+* preventing any claim that QCCT is the first experiment to distinguish state-update prescriptions.
+The experiment is not treated as a prior QCCT-I execution.
+Qutrit and CGI feasibility
+M. Jerger et al.
+“Contextuality without nonlocality in a superconducting quantum system,” Nature Communications 7, 12930 (2016).
+DOI: 10.1038/ncomms12930
+Public data:
+DOI: 10.14264/uql.2016.207
+Used for:
+* sequential dichotomic qutrit-measurement feasibility;
+* coarse-projector experimental geometry;
+* retrospective CGI dataset candidacy.
+Current QCCT status:
+RETROSPECTIVE CGI DATASET CANDIDATE
+until the retained fields are audited against the CGI requirements.
+Process tensors and temporal memory
+G. A. L. White et al.
+“Demonstration of non-Markovian process characterisation and control on a quantum processor,” Nature Communications 11, 6301 (2020).
+DOI: 10.1038/s41467-020-20113-3
+Used for:
+* experimentally demonstrated restricted process-tensor reconstruction;
+* precedent for explicitly scoped RESTRICTED PT;
+* predictive process characterization over a declared intervention span.
+C. Giarmatzi, T. Jones, A. Gilchrist, P. Pakkiam, A. Fedorov, and F. Costa
+“Multi-time quantum process tomography on a superconducting qubit,” Quantum 9, 1952 (2025).
+DOI: 10.22331/q-2025-12-18-1952
+Public repository:
+Christina-Giar/NMN-tomo
+Used for:
+* full multi-time process-tomography feasibility on superconducting-qubit hardware;
+* experimental precedent for a finite-horizon process comparator;
+* open data and analysis precedent.
+Neither White nor Giarmatzi is treated as preparation-indistinguishability data merely because the experiments contain multi-time process information.
+Operational reference and secondary preparations
+A. Aloy et al.
+“Theory-independent monitoring of the decoherence of a superconducting qubit with generalized contextuality,” Nature Communications 17, 2474 (2026).
+DOI: 10.1038/s41467-026-69030-x
+Used for:
+* operational / GPT-style state-space reconstruction;
+* operational equivalence;
+* explicit treatment of tomographic-completeness assumptions;
+* methodological precedent for constructing R_ref.
+The experiment is not treated as QCCT continuation data.
+M. D. Mazurek, M. F. Pusey, R. Kunjwal, K. J. Resch, and R. W. Spekkens
+“An experimental test of noncontextuality without unphysical idealizations,” Nature Communications 7, 11780 (2016).
+DOI: 10.1038/ncomms11780
+Used for:
+* construction of secondary preparations through probabilistic mixtures;
+* experimentally motivated repair of imperfect operational equivalence.
+The work supplies methodological precedent rather than QCCT-I data.
+Source-use rule
+Do not promote a source beyond the burden its evidence supports.
+In particular:
+* Jerger does not become QCCT-I because its hardware is relevant to CGI.
+* White or Giarmatzi do not become preparation-indistinguishability experiments because they characterize temporal processes.
+* Aloy does not become continuation data because it supplies operational-reference methodology.
+* Mazurek does not become QCCT-I because it supplies a method for constructing operational equivalences.
+* Fiorentino–Weigert supplies registered theory-side foils, not an observed anomaly.
+Where a source lacks a field required by a QCCT module, leave that burden open.
+Appendix D — QCCT Return Template
+Use this template for a prospective experiment, retrospective-data analysis, partial closure, comparator result, or other QCCT return.
+Complete only the sections relevant to the burden being reported. Do not omit fields that determine the meaning or scope of the claimed verdict.
+Return Identity
+Return ID:
+[stable identifier]
+Title:
+[return title]
+Group / laboratory:
+[name]
+Date:
+[YYYY-MM-DD]
+QCCT module or burden:
+[QCCT-I / QCCT-CGI / QCCT-II / measurement admission / R_ref / fixed instrument / PT / other declared requirement]
+Anchor version:
+[exact version]
+Companion version:
+ [exact version]
+Quantum Measurement machine-file version:
+[if machine audit was run]
+Universal Kernel version:
+ [if machine audit was run]
+Physical Setup 
+Device / apparatus:
+[identifier]
+Carrier / system:
+[declared physical system]
+Dimensionality:
+[if relevant]
+Environment or expanded reference included:
+[declared carriers]
+Measurement hardware:
+[identifier]
+Calibration epoch:
+[time / run block]
+Acquisition window:
+[time / run block]
+Level and Scope
+Declared level:
+[physical / operational / model / other]
+System scope:
+[bounded system]
+Temporal horizon:
+[if applicable]
+Intervention surface:
+[if applicable]
+Preparation family:
+[declared preparations]
+Outcome family:
+[declared outcomes]
+Tolerance / adequacy rule:
+[criterion]
+Preparation Packet
+For QCCT-I or another Gemenge-dependent burden:
+G_Z implementation:
+[exact procedure]
+G_X implementation:
+[exact procedure]
+Mixture weights:
+[values and uncertainties]
+Randomization method:
+[method]
+Component-preparation controls:
+[method]
+Preparation-label provenance:
+[record]
+Proper-Gemenge evidence:
+[evidence]
+Secondary-preparation construction:
+[if used]
+If the preparation object differs from the canonical QCCT-I pair, state the modification explicitly.
+Operational Reference
+R_ref:
+[definition]
+Construction method:
+[tomography / GPT / other]
+Probe set:
+[description]
+Equivalence statistic:
+[statistic]
+Tolerance:
+[value]
+Uncertainty:
+[value / method]
+Reference fixed before target analysis:
+[yes / no]
+Relevant assumptions:
+[e.g. tomographic completeness]
+Report the actual evidence supporting equivalence. Do not substitute the statement that both ideal preparations equal ½I.
+Measurement Admission
+First measurement:
+[event / instrument]
+P₀ / P₁ definitions or equivalents:
+[definitions]
+Calibration evidence:
+[evidence]
+One-shot statistics:
+[data]
+Apparatus mode:
+[mode]
+Loss / leakage treatment:
+[method]
+Timing:
+[method]
+Drift controls:
+[method]
+Evidence for the same first measurement across branches:
+[evidence]
+Side-Channel Audit
+Repeat for each relevant candidate channel.
+Channel:
+[name]
+Diagnostic:
+[method]
+Adequacy rule:
+[criterion]
+Result:
+[result]
+Status:
+[closed / open / incorporated into expanded reference]
+List unresolved channels explicitly.
+Sequential Data
+Later effect(s):
+[effects]
+Conditional counts:
+[data]
+Joint counts:
+[data, if used]
+Conditioning rule:
+[rule]
+Exclusions:
+[rule]
+Missing-data treatment:
+[method]
+Uncertainty model:
+[method]
+Observed W_PI:
+[value]
+Observed Δ_joint:
+[value, if used]
+For another module, report the corresponding registered statistic, such as D_CGI.
+Fixed-Instrument Comparator
+Model class:
+[class]
+Reconstruction method:
+[method]
+Fit data:
+[data]
+Held-out / validation data:
+[data]
+Physical constraints:
+[CP / TNI / other]
+Loss / leakage treatment:
+[method]
+Adequacy criterion:
+[criterion]
+Result:
+[closure / failure]
+QCCT verdict:
+[R5 / R6 / other applicable status]
+Process-Tensor Comparator
+Entered:
+[yes / no]
+Type:
+[FULL PT / RESTRICTED PT]
+Temporal horizon:
+[value]
+Intervention basis or set:
+[description]
+Intervention-span dimension:
+[if relevant]
+Reconstruction method:
+[method]
+Regularization:
+[method]
+Held-out controls / validation surface:
+[controls]
+Adequacy criterion:
+[criterion]
+Result:
+[result]
+QCCT verdict:
+[R7 / R8 / other applicable status]
+If RESTRICTED PT is used, state the restriction explicitly.
+Reference Expansion
+Entered:
+[yes / no]
+Newly admitted carrier:
+[identity]
+Independent warrant:
+[evidence]
+Changed preparation burden:
+[description]
+Changed measurement burden:
+[description]
+Upstream gates rerun:
+[list]
+QCCT verdict:
+[R9 / other applicable status]
+Registered Foil
+Foil:
+[ω^λ / other preregistered family]
+Exact formula:
+[formula]
+Parameter range:
+[range]
+Fit / bound method:
+[method]
+Statistical assumptions:
+[assumptions]
+Interval / bound:
+[result]
+Goodness-of-fit / comparison rule:
+[rule]
+QCCT verdict:
+[R11 / other applicable status]
+If the foil differs from the registered form, identify it as a different comparator.
+Final Verdict
+Intermediate verdicts, in order:
+[list]
+Final scoped verdict or verdict set:
+[exact QCCT language]
+Evidence supporting each verdict:
+[summary]
+Claims explicitly not earned:
+[list]
+Existing-Data Provenance
+Complete for retrospective analyses.
+Original publication:
+[citation]
+Data repository:
+[identifier]
+Dataset version:
+[version]
+Fields used:
+[list]
+Required fields absent or unverified:
+[list]
+Transformations:
+[list]
+Selection rules:
+[list]
+Analysis code:
+[identifier]
+Original-author consultation:
+[yes / no / details]
+Information inferred from publication prose rather than retained data:
+[list]
+Keep inferred information distinct from retained evidence.
+Machine Audit
+Machine audit run:
+[yes / no]
+Kernel identity:
+[exact file / version]
+Quantum Measurement machine-file identity:
+[exact file / version]
+Environment:
+[Lean / interface / version if known]
+Status:
+[clean / errors]
+Messages:
+[record]
+Local modifications:
+[none / list]
+Hash / commit:
+[if available]
+Do not imply that machine cleanliness strengthens empirical evidence.
+Inherited Results
+Repeat for each inherited result.
+Source group:
+[group]
+Source return ID:
+[identifier]
+Source anchor / companion versions: 
+[exact versions]
+Result or requirement inherited:
+[burden]
+Interface check:
+[result]
+Compatibility status:
+[CROSS-HOUSE INTERFACE CLOSED FOR DECLARED USE / CROSS-HOUSE INTERFACE OPEN]
+Unresolved conditions:
+[list]
+Open Requirements and Questions
+List every material burden that remains unresolved or lies outside the declared closure.
+Examples may include:
+* wider λ range;
+* stronger PT coverage;
+* expanded physical reference;
+* CGI;
+* composition compatibility;
+* independent replication;
+* transfer to another platform;
+* alternative registered foils.
+Do not write “none” unless the declared return scope genuinely contains no remaining burden.
+Provenance and Release
+Data location:
+[repository / DOI]
+Code location:
+[repository / DOI]
+Return artifact location:
+[repository / DOI]
+Access or license conditions:
+[details]
+Appendix E — Cross-Experiment Interface Checklist
+Use this checklist whenever one laboratory, dataset, theory group, or later experiment proposes to inherit an upstream QCCT result.
+A checked item means that the corresponding interface burden has been addressed. It does not by itself establish that the entire inheritance is valid.
+E.1 Release Compatibility
+□ Exact upstream anchor and companion versions are known.                                            □ Exact downstream anchor and companion versions are known.                                         □ Relevant release compatibility has been established.                                                    □ Machine-file and Universal Kernel identities are recorded where a machine audit is material to the inherited result.                                                                                    □ Any material migration burden has been identified.                                                  □ No earlier verdict has been silently strengthened under a newer release.
+E.2 Result / Requirement Identity
+□ The exact upstream result or requirement is named.
+□ The exact downstream use is named.
+□ The downstream use asks the upstream result to perform the same job.
+□ Any material change in that job or requirement is explicit.
+E.3 Physical Object
+□ Upstream physical object is identified.
+□ Downstream physical object is identified.
+□ Same-object identity is established, or an explicit translation is supplied.
+□ Apparatus similarity is not being substituted for physical-object identity.
+E.4 Carrier / Apparatus
+□ Upstream carrier or apparatus is identified.
+□ Downstream carrier or apparatus is identified.
+□ Physical continuity is established where inheritance depends on it.
+□ Different hardware is treated as a new experimental setup unless the required bridge is established.
+E.5 Level
+□ Upstream level is declared.
+□ Downstream level is declared.
+□ No result is moved between physical, operational, or model levels without an explicit bridge.
+E.6 Scope
+□ System scopes are compared.
+□ Temporal horizons are compared.
+□ Intervention surfaces are compared.
+□ Preparation families are compared.
+□ Outcome families are compared.
+□ Restricted coverage is not inherited as full coverage.
+E.7 Operational Reference
+□ Upstream R_ref is identified.
+□ Downstream R_ref is identified.
+□ Reference probes or observables are compared.
+□ Equivalence tolerances are compared.
+□ Relevant completeness assumptions are compared.
+□ A smaller reference is not inherited into a larger physical reference without re-adjudication.
+E.8 Preparation Identity
+Where relevant:
+□ Component preparations match or are explicitly translated.
+□ Mixture weights are compatible or their differences are admitted.
+□ Randomization procedures are compatible.
+□ Proper-Gemenge status survives the interface.
+□ Any secondary-preparation construction is documented.
+E.9 Measurement Identity
+Where relevant:
+□ First-measurement event structure is compatible.
+□ Instrument identity and setup are compatible or explicitly related.
+□ Calibration regimes are compatible.
+□ Timing is compatible.
+□ Loss and leakage treatment are compatible.
+□ Feed-forward and control modes are compatible.
+E.10 Side-Channel Status
+□ Upstream side-channel inventory is known.
+□ Downstream side-channel inventory is known.
+□ A channel absent from one experimental setup is not assumed absent from the other.
+□ Newly admitted carriers trigger reference re-entry where required.
+E.11 Comparator Compatibility
+□ Upstream comparator class is identified.
+□ Downstream comparator class is identified.
+□ Fixed-instrument and process-tensor results are not conflated.
+□ FULL PT and RESTRICTED PT are distinguished.
+□ Intervention coverage is compared.
+□ A weaker comparator result is not inherited as stronger coverage.
+E.12 Outcome and Data Semantics
+□ Outcome labels are mapped explicitly.
+□ Conditioning rules are compatible.
+□ Selection and exclusion rules are compared.
+□ Missing-data treatment is compared.
+□ Event semantics are compatible.
+□ Identical labels are not assumed to identify identical physical events without warrant.
+E.13 Calibration Epoch and Stationarity
+□ Upstream calibration epoch is known.
+□ Downstream calibration epoch is known.
+□ Material hardware changes are identified.
+□ Material firmware or controller changes are identified.
+□ Pulse redesign is identified.
+□ Recalibration is identified.
+□ Stationarity assumptions are compared.
+E.14 Provenance
+□ Upstream data provenance is auditable.
+□ Upstream analysis provenance is auditable.
+□ Downstream use records the source return identifier.
+□ Any transformations introduced during inheritance are documented.
+□ No undocumented private bridge is required.
+E.15 Open Requirements and Questions
+□ Upstream open requirements are known.
+□ Downstream open requirements are known.
+□ No upstream open requirement has been silently treated as satisfied.
+□ New requirements created by the transfer are recorded.
+E.16 Verdict Compatibility
+□ Exact upstream verdict is known.
+□ Downstream use does not strengthen that verdict without new evidence.
+□ Local closure is not treated as universal closure.
+□ Failure in one experimental setup is not transferred to another without the required interface.
+E.17 Inheritance Disposition
+If every interface burden required for the declared downstream use has been discharged, return:
+CROSS-HOUSE INTERFACE CLOSED FOR DECLARED USE
+Record:
+* exact upstream result inherited;
+* exact downstream use;
+* scope of inheritance;
+* any remaining conditions.
+If one or more required interface burdens remain unresolved, return:
+CROSS-HOUSE INTERFACE OPEN
+The upstream result remains valid for its original setup and scope.
+Do not mark it false merely because it cannot yet be inherited.
+E.18 Conflicting Results
+If two apparently transferable results disagree after their required interfaces have been checked, do not average them first.
+Recheck:
+* physical object;
+* carrier;
+* level;
+* scope;
+* reference;
+* calibration;
+* side channels;
+* comparator coverage;
+* outcome semantics;
+* anchor and companion versions.
+If the disagreement survives those checks, preserve it as a live scientific discrimination problem.
+Do not erase a potentially meaningful physical difference through premature pooling.
